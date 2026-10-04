@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container .zagl{
+    font-weight: 700;
+    font-size: 44px;
+    letter-spacing: -1,5px;
+    margin-bottom: 100px;
+    color: #505457;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.cards{
+    /* width: 476px; */
+    height: 500px;
+    display: flex;
+    gap: 39px;
+    align-items: center;
+
+}
+.card{
+    width: 476px;
+    height: 144px;
+    border-radius: 17px;
+    box-shadow: 2px 3px 20px;
+    margin: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 30px;
+
+}
+.card .tel{
+    width: 22px;
+    height: 21px;
+
+}
+.card .p1{
+    font-weight: 700;
+    font-size: 21px ;
+    letter-spacing: -1,5px;
+
+}
+.card .p2{
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+.card .mail{
+    width: 22px;
+    height: 16px;
+}
+.images{
+   width: 890px;
+   height: 492px;
+   position: relative;
+
+}
+.images .vtr{
+    width: 75px;
+    height: 91px;
+    
+   left: 410px;
+   top: 200px;
+    position: absolute;
+    z-index: 2;
+
+}
+.tel1{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+
+}
